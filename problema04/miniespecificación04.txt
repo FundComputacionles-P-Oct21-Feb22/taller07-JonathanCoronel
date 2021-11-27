@@ -1,0 +1,52 @@
+//Problema04 (miniespecificación -use ciclo haga-hasta)
+//Generar una solución que permita ingresar jugadores de fútbol; por cada jugador se debe solicitar:
+//Nombre el jugador
+//Posición en el campo de juego
+//Edad
+//Estatura
+//El ciclo de ingreso de información deberá terminar cuando el usuario lo decida. Se debe imprimer el siguiente reporte (usar una cadena de acumulación):
+
+
+1. Inicio
+2. nombre, x(50)[{a-z}, {A-Z}, {BS}] 
+3. posicion, x(50)[{a-z}, {A-Z}, {BS}] 
+4. edad, i[0, n]
+5. estatura, d[0, n]
+6. contador, i[0, n] <-- 1
+7. salida, x(10)[{a-z}] <-- si
+8. cadena, x(100)[{a-z}, {A-Z}, {. , - ,BS}] <-- ""
+9. promedio1 <-- 0
+10. promedio2 <-- 0
+11.suma_edad <-- 0
+12.suma_estatura <-- 0
+13.Escribir "Ingrese el Nombre del jugador"
+14.Leer nombre
+15.Escribir "Ingrese la Posición en el campo de juego"
+16.Leer posicion
+17.Escribir "Ingrese la Edad del jugador"
+18.Leer edad
+19.Escribir "Ingrese la Estatura del jugador"
+20.Leer estatura
+21. Haga_Hasta
+22. cadena <-- cadena + contador + "." +nombre + "-" + posicion + "-" + +",edad" + " "+ edad +  ",estatura" + " " + estatura + \n
+23. contador <-- contador +1
+24. suma_edad <-- suma_edad + edad
+25. suma_estatura <-- suma_estatura +estatura
+26.Escribir "Escriba (si) para salir del programa"
+27.Leer salida
+28.Fin Haga_Hasta (salida!= "si")
+29.Escribir "Listado de jugadores \n" + cadena 
+30.promedio1 <-- suma_edad/contador 
+31.Escribir "Promedio de edades es " + promedio1 
+32.promedio2 <-- suma_estatura/contador 
+33.Escribir "Promedio de estatura es: " + promedio2 
+34.Fin 
+
+        
+     
+        
+       
+        
+       
+      
+        
